@@ -9,9 +9,10 @@ function App() {
     return (
       <>
       <WeatherForecast 
-        img={element.img}
-        conditions={element.conditions}
-        time={element.time}
+        // img={element.img}
+        // conditions={element.conditions}
+        // time={element.time}
+        {...element}
         key={index}
       />
       </>
