@@ -4,7 +4,6 @@ import weatherData from "./weatherData";
 import WeatherForecast from "./components/WeatherForecast";
 import Title from "./components/Title"
 
-
 function App() {
   const allWeatherData = weatherData.map((element, index) => {
     return (
