@@ -8,13 +8,13 @@ function App() {
   const allWeatherData = weatherData.map((element, index) => {
     return (
       <>
-      <WeatherForecast 
-        // img={element.img}
-        // conditions={element.conditions}
-        // time={element.time}
-        {...element}
-        key={index}
-      />
+        <WeatherForecast 
+          // img={element.img}
+          // conditions={element.conditions}
+          // time={element.time}
+          {...element}
+          key={index}
+        />
       </>
     )
   })
